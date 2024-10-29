@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import SearchOrder from "../features/order/SearchOrder"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import SearchOrder from '../features/order/SearchOrder';
 
 export default function Header() {
   return (
@@ -9,5 +9,5 @@ export default function Header() {
       <SearchOrder />
       <p>Bunyakorn</p>
     </div>
-  )
+  );
 }
