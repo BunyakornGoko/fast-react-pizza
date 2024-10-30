@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function SearchOrder() {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
   const navigate = useNavigate();
 
   function handleSubmit(e) {
@@ -10,7 +10,7 @@ export default function SearchOrder() {
 
     if (!query) return;
     navigate(`/order/${query}`);
-    setQuery('');
+    setQuery("");
   }
   return (
     <form onSubmit={handleSubmit}>
