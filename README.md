@@ -2,5 +2,8 @@
 
 <hr/>
 <div align="center">
-<img src = "./src/assets/fast-pizza.png" style = "border-radius:10px">
+<img src = "./src/assets/fast-pizza1.png" style = "border-radius:10px">
+</div>
+<div align="center">
+<img src = "./src/assets/fast-pizza2.png" style = "border-radius:10px">
 </div>
